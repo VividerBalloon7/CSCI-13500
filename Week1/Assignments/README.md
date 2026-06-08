@@ -1,0 +1,1 @@
+This program takes two integers from the user and performs a specific operation chosen by the user. I decided to use switch cases because there are only 5 possible operations that can be done using both integers provided by the user. Using if and if-else statements to express all 5 possibilities and their specific outcomes would be to messy.
