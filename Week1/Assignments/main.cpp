@@ -10,7 +10,7 @@ int main() {
 
 //Asking user to input two integers
     int n1, n2;
-    cout << "Enter first integers:";
+    cout << "Enter first integer:";
     cin >> n1;
 
     cout << "Enter second integer:";
