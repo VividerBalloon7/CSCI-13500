@@ -12,7 +12,7 @@ public:
     // Returns the number of segments ACTUALLY killed.
     int Kill(int count);
 
-    // Adds `count` new body parts (nodes) to the BACK of the snake.
+    // Adds `count` new body parts (nodes) to the BACK (tail) of the snake.
     void Regenerate(int count);
 
     // Prints the snake's segments from head to tail, e.g.:
@@ -25,7 +25,7 @@ public:
 
 private:
     Node* head_;
-    Node* tail_;      // think about why keeping a tail pointer is useful here
+    Node* tail_;   // think about why keeping a tail pointer is useful here
     int length_;
     int id_;      // used to give each new node a unique, increasing id
 
