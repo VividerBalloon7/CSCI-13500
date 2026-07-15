@@ -23,8 +23,10 @@ std::string getPlayerChoice() {
         return playerChoice;
     }
     else {
-        std::cout << "INVALID CHOICE. Try again.\n";
+        std::cout << "Invalid choice, please try again!" << std::endl;
     }
+
+
 
 }
 
